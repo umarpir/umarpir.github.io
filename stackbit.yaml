@@ -39,7 +39,7 @@ sourceMapping:
   - source:
       fieldPath: author.avatar
     target:
-      file: data/config.yml
+      file: config.yml
       fieldPath: params.header.profile_img
   - source:
       fieldPath: 'social.links[0].url'

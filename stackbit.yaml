@@ -27,6 +27,11 @@ sourceMapping:
       file: config.yml
       fieldPath: params.header.title
   - source:
+      fieldPath: author.about
+    target:
+      file: config.yml
+      fieldPath: params.header.tagline
+  - source:
       fieldPath: author.email
     target:
       file: data/author.json
@@ -46,6 +51,46 @@ sourceMapping:
     target:
       file: data/social.json
       fieldPath: 'links[0].url'
+  - source:
+      fieldPath: 'social.twitter.url'
+    target:
+      file: data/social.json
+      fieldPath: links[0].url
+  - source:
+      fieldPath: 'social.instagram.url'
+    target:
+      file: data/social.json
+      fieldPath: links[1].url
+  - source:
+      fieldPath: 'social.github.url'
+    target:
+      file: data/social.json
+      fieldPath: links[2].url
+  - source:
+      fieldPath: 'social.linkedin.url'
+    target:
+      file: data/social.json
+      fieldPath: links[3].url
+  - action: delete
+    condition: '!context.social.links && !context.social.linkedin && (context.social.twitter || context.social.github || context.social.instagram)'
+    target:
+      file: data/social.json
+      fieldPath: links[3]
+  - action: delete
+    condition: '!context.social.links && !context.social.github && (context.social.twitter || context.social.linkedin || context.social.instagram)'
+    target:
+      file: data/social.json
+      fieldPath: links[2]
+  - action: delete
+    condition: '!context.social.links && !context.social.instagram && (context.social.twitter || context.social.github || context.social.linkedin)'
+    target:
+      file: data/social.json
+      fieldPath: links[1]
+  - action: delete
+    condition: '!context.social.links && !context.social.twitter && (context.social.instagram || context.social.github || context.social.linkedin)'
+    target:
+      file: data/social.json
+      fieldPath: links[0]
 models:
   config:
     type: config

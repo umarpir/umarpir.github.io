@@ -27,7 +27,7 @@ sourceMapping:
       file: config.yml
       fieldPath: params.header.title
   - source:
-      fieldPath: author.about
+      fieldPath: author.tagline
     target:
       file: config.yml
       fieldPath: params.header.tagline

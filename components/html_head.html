@@ -4,5 +4,6 @@
 <meta name="google" content="notranslate" />
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
-
-{% block headerMisc %}{% endblock %}
+{% if page.layout == "post" && page.params.canonical_url %}
+<link rel="canonical" href="{{ page.params.canonical_url }}"/>
+{% endif %}

@@ -77,27 +77,27 @@ sourceMapping:
       file: data/social.json
       fieldPath: links[4].url
   - action: delete
-    condition: 'context.social.links && !context.social.devto'
+    condition: 'context.social && !context.social.devto'
     target:
       file: data/social.json
       fieldPath: links[4]
   - action: delete
-    condition: 'context.social.links && !context.social.linkedin'
+    condition: 'context.social && !context.social.linkedin'
     target:
       file: data/social.json
       fieldPath: links[3]
   - action: delete
-    condition: 'context.social.links && !context.social.github'
+    condition: 'context.social && !context.social.github'
     target:
       file: data/social.json
       fieldPath: links[2]
   - action: delete
-    condition: 'context.social.links && !context.social.instagram'
+    condition: 'context.social && !context.social.instagram'
     target:
       file: data/social.json
       fieldPath: links[1]
   - action: delete
-    condition: 'context.social.links && !context.social.twitter'
+    condition: 'context.social && !context.social.twitter'
     target:
       file: data/social.json
       fieldPath: links[0]

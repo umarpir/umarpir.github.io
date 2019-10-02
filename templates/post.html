@@ -1,5 +1,11 @@
 {% extends "body.html" %}
 
+{% block header %}
+{% if page.params.canonical_url %}
+<link rel="canonical" href="{{ page.params.canonical_url }}"/>
+{% endif %}
+{% endblock %}
+
 {% block content %}
 
   <article class="post post-full">

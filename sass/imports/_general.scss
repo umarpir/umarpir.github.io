@@ -1,16 +1,11 @@
 /**
  * General
- * ----------------------------------------------------------------------------
  */
 html {
   font-family: _font(primary);
   font-size: 112.5%;
   height: 100%;
   min-height: 100%;
-
-  @media only screen and (max-width: 600px) {
-    font-size: 100%;
-  }
 }
 
 body {
@@ -50,28 +45,28 @@ h6 {
 }
 
 h1 {
-  font-size: 2.22222rem;
+  font-size: 2.22222em;
 }
 
 h2 {
-  font-size: 1.88889rem;
+  font-size: 1.88889em;
 }
 
 h3 {
-  font-size: 1.33333rem;
+  font-size: 1.55556em;
 }
 
 h4 {
-  font-size: 1.11111rem;
+  font-size: 1.33333em;
 }
 
 h5 {
-  font-size: 0.88889rem;
+  font-size: 1.11111em;
 }
 
 h6 {
-  font-size: 14px;
-  letter-spacing: 0.075em;
+  font-size: 0.88889em;
+  letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
 
@@ -86,45 +81,42 @@ address {
 
 mark,
 ins {
-  background: #fff493;
+  background: #fff9c6;
   color: _palette(secondary);
   padding: 0 3px;
   text-decoration: none;
 }
 
+code,
 pre {
+  font-family: _font(monospace);
+  font-size: 0.88889rem;
+}
+
+pre {
+  background-color: _palette(bg);
   border: 1px solid _palette(border);
   border-radius: 5px;
   color: _palette(secondary);
-  font-size: 0.88889rem;
-  margin: 0 0 1.66667rem;
+  margin: 1.66667rem 0;
   overflow: auto;
-  padding: 1.5em 1.875em;
+  padding: 1.33333em;
   position: relative;
   white-space: pre;
 
-  &:before {
-    border-color: _palette(border);
-    border-style: solid;
-    border-width: 0 0 1px 1px;
-    color: inherit;
-    content: "</>";
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    padding: 1px 4px;
-    position: absolute;
-    right: 0;
-    top: 0;
+  &:first-child {
+    margin-top: 0
   }
 }
 
 blockquote {
   border-bottom: 1px solid _palette(secondary);
   border-top: 3px solid _palette(secondary);
-  font-size: 2rem;
+  font-size: 1.88889em;
   line-height: 1.25;
-  margin: 2.5rem 0;
-  padding-bottom: 1em;
-  padding-top: 0.83333em;
+  margin: 2rem 0;
+  padding-bottom: 1.66667rem;
+  padding-top: 1.33333rem;
 
   &:first-child {
     margin-top: 0
@@ -142,10 +134,10 @@ blockquote {
   cite {
     color: _palette(meta);
     display: block;
-    font-size: 0.5em;
+    font-size: 0.52941em;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.66667;
+    line-height: 1.5;
     margin-top: 1em;
 
     &:last-child {
@@ -169,7 +161,7 @@ dd {
 ul,
 ol {
   margin: 0 0 1.66667em;
-  padding: 0 0 0 1.66667em;
+  padding: 0 0 0 1.33333em;
 }
 
 li > ul,
@@ -185,16 +177,17 @@ hr {
 }
 
 table {
-  font-size: 0.88889rem;
+  border-bottom: 1px solid _palette(border);
   line-height: 1.5;
   margin: 0 0 1.66667rem;
+  max-width: 100%;
   text-align: left;
   width: 100%;
 }
 
 caption {
   color: _palette(meta);
-  font-size: 0.875em;
+  font-size: 0.88889rem;
   font-style: normal;
   margin-bottom: 1em;
   text-align: left;
@@ -202,7 +195,7 @@ caption {
 
 th,
 td {
-  border-bottom: 1px solid _palette(border);
+  border-top: 1px solid _palette(border);
   padding: 0.5em 5px;
 }
 
@@ -211,34 +204,31 @@ th {
   font-weight: bold;
 }
 
+.responsive-table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+}
+
 /* Form fields */
 label {
   color: _palette(secondary);
-  font-weight: bold;
-}
-
-label > span {
-  font-size: 14px;
-  font-weight: normal;
-}
-
-input[type=checkbox]+label,
-input[type=radio]+label {
-  cursor: pointer;
-  padding-left: 0.25em;
-  padding-right: 1em;
+  display: inline-block;
+  line-height: 1.5;
+  margin-bottom: 0.25em;
 }
 
 input[type="text"],
 input[type="password"],
 input[type="email"],
 input[type="tel"],
+input[type="number"],
 input[type="search"],
 input[type="url"],
 select,
 textarea {
-  background: #fff;
-  border: 1px solid _palette(border-alt);
+  background: _palette(bg);
+  border: 1px solid _palette(border);
   border-radius: 5px;
   box-shadow: none;
   box-sizing: border-box;
@@ -257,21 +247,90 @@ textarea {
   }
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
-input[type="search"],
-input[type="url"],
-select {
-  height: 2.625em;
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-submit {
+  margin-top: 1.66667em;
+}
+
+.form-select-wrap {
+  font-size: 16px;
+  position: relative;
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 25px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  &:before,
+  &:after {
+    border: solid transparent;
+    border-width: .3125em;
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    z-index: 1;
+  } 
+
+  &:before {
+    border-top-color: _palette(meta);
+    margin-top: .125em;
+  }
+
+  &:after {
+    border-bottom-color: _palette(meta);
+    margin-top: -.75em;
+  }
+}
+
+.form-checkbox {
+  padding-left: 24px;
+  position: relative;
+
+  input[type=checkbox] {
+    height: 1.5em;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+}
+
+/* Placeholder text */
+::-webkit-input-placeholder {
+  color: _palette(meta);
+}
+
+::-moz-placeholder {
+  color: _palette(meta);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: _palette(meta);
+}
+
+::-ms-input-placeholder {
+  color: _palette(meta);
+}
+
+::placeholder {
+  color: _palette(meta);
 }
 
 button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"],
-a.button {
+.button {
   background: _palette(accent);
   border: 2px solid _palette(accent);
   border-radius: 30px;
@@ -279,10 +338,11 @@ a.button {
   color: #fff;
   display: inline-block;
   font-size: 14px;
-  height: 3em;
   letter-spacing: 0.075em;
-  line-height: 1.5;
-  padding: 0.25em 35px;
+  line-height: 1.2;
+  padding: 0.75714em 35px;
+  text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: .3s ease;
   transition: .3s ease;
@@ -290,31 +350,30 @@ a.button {
   &:hover,
   &:focus,
   &:active {
-    background: 0;
-    box-shadow: 0 0 1px 7px rgba(_palette(accent),.2);
+    background: transparent;
+    border-color: _palette(accent);
+    box-shadow: 0 0 1px 0.5em rgba(_palette(accent),.2);
     color: _palette(secondary);
     outline: 0;
   }
 }
 
-a.button {
-  line-height: 1.2;
-  padding-bottom: 0.75em;
-  padding-top: 0.75em;
-}
-
-a.circle {
-  background: transparent;
-  color: _palette(primary);
+.button-icon  {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 1em;
+  height: 2.33333em;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 2.33333em;
   padding: 0;
-  width: 3em;
-
-  &:hover,
-  &:focus,
-  &:active {
-    background: _palette(accent);
-    color: #fff;
-  }
+  position: relative;
+  width: 2.33333em;
 }
 
 #menu-toggle {
@@ -346,10 +405,12 @@ img {
   max-width: 100%;
 }
 
-.post-thumbnail img,
-.post-content img,
-.block img {
-  border-radius: 5px;
+.post-image,
+.post-content,
+.block {
+  img {
+    border-radius: 5px;
+  }
 }
 
 /* Text meant only for screen readers */
@@ -380,12 +441,32 @@ img {
 }
 
 /* Clearing floats */
-.post-content:after {
-  clear: both;
+.post-content {
+  &:after {
+    clear: both;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
 }
 
-.post-content:before,
-.post-content:after {
-  content: "";
-  display: table;
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.77778em;
+  }
+
+  blockquote {
+    font-size: 1.55556em;
+  }
 }

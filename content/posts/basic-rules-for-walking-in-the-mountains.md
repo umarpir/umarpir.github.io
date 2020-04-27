@@ -3,9 +3,9 @@ title: Basic Rules For Walking In The Mountains
 excerpt: >-
     Hiking can sometimes involves bushwhacking and hiking is sometimes referred to as such. This specifically refers to difficult walking through dense forest, undergrowth, or bushes, where forward progress requires pushing vegetation aside.
 date: 2018-01-09
-thumb_img_path: images/6.jpg
-content_img_path: images/6.jpg
-template: post
+thumb_image: images/6.jpg
+image: images/6.jpg
+layout: post
 ---
 
 Photo by [David Marcu.](https://unsplash.com/photos/wcHCzgo0_mQ)

@@ -1,6 +1,5 @@
 /**
  * Site Header
- * ----------------------------------------------------------------------------
  */
 .site-header {
   background: #fff;
@@ -14,18 +13,18 @@
 }
 
 .site-branding {
+  -webkit-box-align: center;
   -ms-flex-align: center;
-  -webkit-align-items: center;
   align-items: center;
+  display: -webkit-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   font-size: 1rem;
 }
 
 .site-logo {
+  -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
-  -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
   margin: 0 10px 0 0;
 
@@ -39,8 +38,8 @@
 }
 
 .profile {
+  -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
-  -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
   margin: 0 15px 0 0;
 
@@ -53,6 +52,7 @@
     box-shadow: 0 0 1px 7px rgba(_palette(accent),.2);
     border-radius: 100%;
     display: block;
+    -o-object-fit: cover;
     object-fit: cover;
     height: 45px;
     width: 45px;
@@ -111,7 +111,6 @@
 }
 
 .menu {
-  border-bottom: 1px solid _palette(border);
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.15em;
@@ -125,37 +124,58 @@
   border-top: 1px solid _palette(border);
   padding: 0.5em 0;
 
-  a {
+  &.current-menu-item {
+    color: _palette(accent);
+  }
+
+  &:not(.menu-button):last-child {
+    border-bottom: 1px solid _palette(border);
+  }
+
+  :not(.button) {
     border: 0;
     color: inherit;
+
+    &:hover {
+      color: _palette(accent);
+    }
+  }
+
+  &.menu-button {
+    padding: 1em 0;
+
+    & + .menu-button {
+      border-top: 0;
+      padding-top: 0;
+    }
+  }
+
+  .button {
+    padding-bottom: 0.54286em;
+    padding-top: 0.54286em;
   }
 }
 
-.menu-item a:hover,
-.current-menu-item a {
-  color: _palette(accent);
-}
-
 .social-links {
+  display: -webkit-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 1.66667em;
 
   a {
+    -webkit-box-align: center;
     -ms-flex-align: center;
-    -webkit-align-items: center;
     align-items: center;
     border: 1px solid _palette(border);
     border-radius: 50%;
     color: inherit;
+    display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     height: 30px;
+    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin: 0 10px 0.5em 0;
@@ -190,7 +210,16 @@
     color: #fff;
   }
 
-  .menu,
+  .menu-item {
+    .button {
+      &:hover,
+      &:focus,
+      &:active {
+        color: _palette(accent);
+      }
+    }
+  }
+
   .menu-item,
   .social-links a {
     border-color: _palette(primary);
@@ -226,6 +255,8 @@
   }
 
   .site-branding {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -280,6 +311,7 @@
   }
 
   .social-links {
+    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
 
@@ -321,4 +353,3 @@
     }
   }
 }
-

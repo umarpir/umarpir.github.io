@@ -1,11 +1,16 @@
 /**
  * Structure
- * ----------------------------------------------------------------------------
  */
 .inner {
   margin-left: auto;
   margin-right: auto;
   max-width: 1080px;
+}
+
+.inner-sm {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 760px;
 }
 
 .site {
@@ -39,28 +44,9 @@
   margin-bottom: 3.33333em;
 }
 
-.site-main,
-.site-footer {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 760px;
-}
-
-.style-overflow {
-  .site-main {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: none;
-  }
-
-  .hero,
-  .block-title,
-  .block-content,
-  .post-feed + .block-cta,
-  .post-full .post-header,
-  .post-full .post-subtitle,
-  .post-full .post-content,
-  .post-full .post-meta {
+.style-simple {
+  .post-feed,
+  .post-image {
     margin-left: auto;
     margin-right: auto;
     max-width: 760px;

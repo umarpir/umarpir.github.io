@@ -1,7 +1,8 @@
 
 // Font.
 $font: (
-  primary: ("Roboto","Helvetica Neue",Helvetica,sans-serif)
+  primary: ("Roboto",Helvetica,sans-serif),
+  monospace: (Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace)
 );
 
 // Palette.
@@ -10,7 +11,7 @@ $palette: (
   secondary:     darken(#555e69, 15%),
   meta:          lighten(#555e69, 25%),
   border:        lighten(#555e69, 55%),
-  border-alt:    lighten(#555e69, 25%),
+  bg:            lighten(#555e69, 60%),
   accent:        #1de2bc,
   accent-blue:   #10bcf9,
   accent-violet: #9371e6,
@@ -28,7 +29,9 @@ $palette: (
 @import "imports/animations";
 @import "imports/structure";
 @import "imports/header";
-@import "imports/content";
+@import "imports/posts-pages";
+//@import "imports/post-navigation";
+@import "imports/sections";
 @import "imports/footer";
 @import "imports/palettes";
 @import "imports/banner";

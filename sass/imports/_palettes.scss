@@ -1,6 +1,5 @@
 /**
  * Palettes
- * ----------------------------------------------------------------------------
  */
 .palette-blue {
   a {
@@ -15,25 +14,16 @@
   input[type="submit"],
   input[type="button"],
   input[type="reset"],
-  a.button {
+  .button {
     background: _palette(accent-blue);
     border-color: _palette(accent-blue);
 
     &:hover,
     &:focus,
     &:active {
-      background: 0;
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-blue),.2);
-    }
-  }
-
-  a.button.circle {
-    background: transparent;
-
-    &:hover,
-    &:focus,
-    &:active {
-      background: _palette(accent-blue);
+      background: transparent;
+      border-color: _palette(accent-blue);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-blue),.2);
     }
   }
 
@@ -54,11 +44,6 @@
     }
   }
 
-  .menu-item a:hover,
-  .current-menu-item a {
-    color: _palette(accent-blue);
-  }
-
   .social-links {
     a {
       border-color: _palette(border);
@@ -71,18 +56,20 @@
     }
   }
 
-  .dark .social-links {
-    a {
-      border-color: _palette(primary);
-
-      &:hover {
-        border-color: _palette(accent-blue);
-      }
-    }
+  .menu-item.current-menu-item,
+  .menu-item :not(.button):hover,
+  .post-title a:hover {
+    color: _palette(accent-blue);
   }
 
-  .post-title {
-    a:hover {
+  .site-header.dark {
+    .social-links a:hover {
+      border-color: _palette(accent-blue);
+    }
+
+    .menu-item .button:hover,
+    .menu-item .button:focus,
+    .menu-item .button:active {
       color: _palette(accent-blue);
     }
   }
@@ -101,25 +88,16 @@
   input[type="submit"],
   input[type="button"],
   input[type="reset"],
-  a.button {
+  .button {
     background: _palette(accent-violet);
     border-color: _palette(accent-violet);
 
     &:hover,
     &:focus,
     &:active {
-      background: 0;
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-violet),.2);
-    }
-  }
-
-  a.button.circle {
-    background: transparent;
-
-    &:hover,
-    &:focus,
-    &:active {
-      background: _palette(accent-violet);
+      background: transparent;
+      border-color: _palette(accent-violet);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-violet),.2);
     }
   }
 
@@ -140,11 +118,6 @@
     }
   }
 
-  .menu-item a:hover,
-  .current-menu-item a {
-    color: _palette(accent-violet);
-  }
-
   .social-links {
     a {
       border-color: _palette(border);
@@ -157,18 +130,20 @@
     }
   }
 
-  .dark .social-links {
-    a {
-      border-color: _palette(primary);
-
-      &:hover {
-        border-color: _palette(accent-violet);
-      }
-    }
+  .menu-item.current-menu-item,
+  .menu-item :not(.button):hover,
+  .post-title a:hover {
+    color: _palette(accent-violet);
   }
 
-  .post-title {
-    a:hover {
+  .site-header.dark {
+    .social-links a:hover {
+      border-color: _palette(accent-violet);
+    }
+
+    .menu-item .button:hover,
+    .menu-item .button:focus,
+    .menu-item .button:active {
       color: _palette(accent-violet);
     }
   }
@@ -187,25 +162,16 @@
   input[type="submit"],
   input[type="button"],
   input[type="reset"],
-  a.button {
+  .button {
     background: _palette(accent-orange);
     border-color: _palette(accent-orange);
 
     &:hover,
     &:focus,
     &:active {
-      background: 0;
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-orange),.2);
-    }
-  }
-
-  a.button.circle {
-    background: transparent;
-
-    &:hover,
-    &:focus,
-    &:active {
-      background: _palette(accent-orange);
+      background: transparent;
+      border-color: _palette(accent-orange);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-orange),.2);
     }
   }
 
@@ -226,11 +192,6 @@
     }
   }
 
-  .menu-item a:hover,
-  .current-menu-item a {
-    color: _palette(accent-orange);
-  }
-
   .social-links {
     a {
       border-color: _palette(border);
@@ -243,18 +204,20 @@
     }
   }
 
-  .dark .social-links {
-    a {
-      border-color: _palette(primary);
-
-      &:hover {
-        border-color: _palette(accent-orange);
-      }
-    }
+  .menu-item.current-menu-item,
+  .menu-item :not(.button):hover,
+  .post-title a:hover {
+    color: _palette(accent-orange);
   }
 
-  .post-title {
-    a:hover {
+  .site-header.dark {
+    .social-links a:hover {
+      border-color: _palette(accent-orange);
+    }
+
+    .menu-item .button:hover,
+    .menu-item .button:focus,
+    .menu-item .button:active {
       color: _palette(accent-orange);
     }
   }

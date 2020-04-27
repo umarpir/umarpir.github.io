@@ -2,11 +2,7 @@
 title: Style Guide
 subtitle: >-
   The style guide provides you with a blueprint of default post and page styles. The style guide is also a great reference for suggested typographic treatment and styles for your content.
-menus:
-  main:
-    weight: 3
-    title: Style Guide
-template: page
+layout: page
 ---
 
 **This is a paragraph**. Pellentesque habitant morbi *tristique senectus et netus et malesuada* fames ac turpis egestas. Vestibulum [tortor quam](https://www.google.com), feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit <mark>amet est et sapien ullamcorper</mark> pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
@@ -58,30 +54,35 @@ Blocks of code are either fenced by lines with three back-ticks, or are indented
 ```
 <!-- Some example CSS code -->
 body {
-  color:red;
+  color: #333;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
 }
 ```
 
 ## Tables
 
-<table>
-    <caption>Table with thead, tfoot, and tbody</caption>
-  <thead>
-    <tr>
-      <th>Header content 1</th>
-      <th>Header content 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Body content 1</td>
-      <td>Body content 2</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td>Footer content 1</td>
-      <td>Footer content 2</td>
-    </tr>
-  </tfoot>
-</table>
+<div class="responsive-table">
+  <table>
+    <caption>Simple table with caption and header</caption>
+    <thead>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Row 1, Cell 1</td>
+        <td>Row 1, Cell 2</td>
+        <td>Row 1, Cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 2, Cell 1</td>
+        <td>Row 2, Cell 2</td>
+        <td>Row 2, Cell 3</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

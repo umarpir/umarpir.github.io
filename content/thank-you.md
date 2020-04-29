@@ -1,6 +1,6 @@
 ---
 title: Thank You!
-image: images/thank-you.jpg
+img_path: images/thank-you.jpg
 layout: page
 ---
 

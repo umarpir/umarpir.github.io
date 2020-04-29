@@ -247,10 +247,10 @@ models:
       - type: image
         name: avatar
         label: Avatar
-  generic:
+  advanced:
     type: page
-    label: Generic Page
-    layout: generic
+    label: Advanced Page
+    layout: advanced
     hideContent: true
     fields:
       - type: string
@@ -315,7 +315,7 @@ models:
         label: Excerpt
         description: The excerpt of the page displayed in meta data.
       - type: image
-        name: image
+        name: img_path
         label: Image
         description: The image shown below the page title and subtitle.
   post:
@@ -338,11 +338,11 @@ models:
         label: Date
         required: true
       - type: image
-        name: thumb_image
+        name: thumb_img_path
         label: Featured Image
         description: The image shown in the blog feed.
       - type: image
-        name: image
+        name: content_img_path
         label: Alternative Featured Image
         description: The image shown in the single post.
       - type: string

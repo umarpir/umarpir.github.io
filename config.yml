@@ -16,16 +16,16 @@ params:
         url: /
         type: link
       - label: Blog
-        url: /blog
+        url: /blog/
         type: link
       - label: Style Guide
-        url: /style-guide
+        url: /style-guide/
         type: link
       - label: About
-        url: /about
+        url: /about/
         type: link
       - label: Contact
-        url: /contact
+        url: /contact/
         type: link
     has_social: true
   footer:

@@ -46,12 +46,18 @@
 
   .social-links {
     a {
-      border-color: _palette(border);
+      &:not(.button) {
+        &:hover {
+          color: _palette(accent-blue);
+        }
+      }
 
-      &:hover {
-        background: _palette(accent-blue);
-        border-color: _palette(accent-blue);
-        box-shadow: 0 0 1px 5px rgba(_palette(accent-blue),.2);
+      &.button-icon {
+        &:hover {
+          background: _palette(accent-blue);
+          border-color: _palette(accent-blue);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-blue),.2);
+        }
       }
     }
   }
@@ -63,7 +69,7 @@
   }
 
   .site-header.dark {
-    .social-links a:hover {
+    .social-links .button-icon:hover {
       border-color: _palette(accent-blue);
     }
 
@@ -120,12 +126,18 @@
 
   .social-links {
     a {
-      border-color: _palette(border);
+      &:not(.button) {
+        &:hover {
+          color: _palette(accent-violet);
+        }
+      }
 
-      &:hover {
-        background: _palette(accent-violet);
-        border-color: _palette(accent-violet);
-        box-shadow: 0 0 1px 5px rgba(_palette(accent-violet),.2);
+      &.button-icon {
+        &:hover {
+          background: _palette(accent-violet);
+          border-color: _palette(accent-violet);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-violet),.2);
+        }
       }
     }
   }
@@ -137,7 +149,7 @@
   }
 
   .site-header.dark {
-    .social-links a:hover {
+    .social-links .button-icon:hover {
       border-color: _palette(accent-violet);
     }
 
@@ -194,12 +206,18 @@
 
   .social-links {
     a {
-      border-color: _palette(border);
+      &:not(.button) {
+        &:hover {
+          color: _palette(accent-orange);
+        }
+      }
 
-      &:hover {
-        background: _palette(accent-orange);
-        border-color: _palette(accent-orange);
-        box-shadow: 0 0 1px 5px rgba(_palette(accent-orange),.2);
+      &.button-icon {
+        &:hover {
+          background: _palette(accent-orange);
+          border-color: _palette(accent-orange);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-orange),.2);
+        }
       }
     }
   }
@@ -211,7 +229,7 @@
   }
 
   .site-header.dark {
-    .social-links a:hover {
+    .social-links .button-icon:hover {
       border-color: _palette(accent-orange);
     }
 

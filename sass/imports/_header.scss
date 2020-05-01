@@ -132,15 +132,6 @@
     border-bottom: 1px solid _palette(border);
   }
 
-  :not(.button) {
-    border: 0;
-    color: inherit;
-
-    &:hover {
-      color: _palette(accent);
-    }
-  }
-
   &.menu-button {
     padding: 1em 0;
 
@@ -154,9 +145,23 @@
     padding-bottom: 0.54286em;
     padding-top: 0.54286em;
   }
+
+  a {
+    &:not(.button) {
+      border: 0;
+      color: inherit;
+  
+      &:hover {
+        color: _palette(accent);
+      }
+    }
+  }
 }
 
 .social-links {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,35 +170,33 @@
   margin-top: 1.66667em;
 
   a {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border: 1px solid _palette(border);
-    border-radius: 50%;
     color: inherit;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 30px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     margin: 0 10px 0.5em 0;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
-    width: 30px;
 
-    &:hover {
-      background: _palette(accent);
-      border-color: _palette(accent);
-      box-shadow: 0 0 1px 5px rgba(_palette(accent),.2);
-      color: #fff;
+    &:not(.button) {
+      border: 0;
+      font-size: 16px;
+
+      &:hover {
+        color: _palette(accent);
+      }
     }
-  }
 
-  .fab {
-    font-size: 16px;
-    line-height: 1.875;
+    &.button-icon {
+      background: transparent;
+      border: 1px solid _palette(border);
+      font-size: 16px;
+      height: 2em;
+      line-height: 2em;
+      width: 2em;
+  
+      &:hover {
+        background: _palette(accent);
+        border-color: _palette(accent);
+        box-shadow: 0 0 1px 5px rgba(_palette(accent),.2);
+        color: #fff;
+      }
+    }
   }
 }
 
@@ -221,11 +224,11 @@
   }
 
   .menu-item,
-  .social-links a {
+  .social-links .button-icon {
     border-color: _palette(primary);
   }
 
-  .social-links a:hover {
+  .social-links .button-icon:hover {
     border-color: _palette(accent);
   }
 }

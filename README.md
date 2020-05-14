@@ -1,6 +1,6 @@
 # Fresh
 
-A sleek SaaS theme for Stackbit. [Live Demo](https://themes.stackbit.com/demos/fresh)
+A personal theme with a blog for Stackbit. [Live Demo](https://themes.stackbit.com/demos/fresh)
 
 Click the button below to use this theme in Gatsby, Hugo or Jekyll via the Stackbit site builder:
 

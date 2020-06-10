@@ -15,7 +15,7 @@ sections:
     actions:
     - label: Contact Me
       url: "/contact"
-      type: button
+      style: button
   - section_id: recent-posts
     type: section_posts
     title: Recent Posts
@@ -23,6 +23,6 @@ sections:
     actions:
     - label: View Blog
       url: blog/index.html
-      type: button
+      style: button
 layout: advanced
 ---

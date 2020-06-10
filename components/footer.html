@@ -4,7 +4,7 @@
     <span class="copyright">{{ site.params.footer.content | safe }}</span>
     {% endif %}
     {% for action in site.params.footer.links %}
-    <a {{ classNames({'button': action.type == 'button'}) }} href="{{ action.url | relative_url }}"{% if action.new_window %} target="_blank" rel="noopener"{% endif %}>{{ action.label }}</a>
+    <a {{ classNames({'button': action.style == 'button'}) }} href="{{ action.url | relative_url }}"{% if action.new_window %} target="_blank" rel="noopener"{% endif %}>{{ action.label }}</a>
     {% endfor %}
   </p><!-- .site-info -->
   <a id="to-top" class="to-top" href="#page"><span class="icon-arrow-up" aria-hidden="true"></span><span

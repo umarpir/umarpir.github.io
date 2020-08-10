@@ -118,6 +118,8 @@ sourceMapping:
     target:
       file: config.yml
       fieldPath: params.footer.links[1].style
+logicFields:
+  - section_posts.posts_number
 models:
   config:
     type: config

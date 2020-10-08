@@ -256,6 +256,7 @@ models:
             - section_posts
   blog:
     type: page
+    urlPath: "/blog"
     label: Blog
     layout: blog
     file: blog/index.md
@@ -296,6 +297,7 @@ models:
         description: The image shown below the page title and subtitle.
   post:
     type: page
+    urlPath: "/posts/{slug}"
     label: Post
     layout: post
     folder: posts

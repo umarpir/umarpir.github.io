@@ -125,6 +125,10 @@ models:
     type: config
     label: Site Configuration
     fields:
+      - type: image
+        name: favicon
+        label: Favicon
+        description: A square icon that represents your website.
       - type: string
         name: description
         label: Site Description
@@ -175,6 +179,10 @@ models:
         label: Profile Image
         description: >-
           The author profile image displayed on the left side.
+      - type: string
+        name: profile_img_alt
+        label: Profile Image Alt Text
+        description: The alt text of the author profile image.
       - type: enum
         name: background
         label: Background
@@ -295,6 +303,10 @@ models:
         name: img_path
         label: Image
         description: The image shown below the page title and subtitle.
+      - type: string
+        name: img_alt
+        label: Image Alt Text
+        description: The alt text of the image.
   post:
     type: page
     urlPath: "/posts/{slug}"
@@ -317,12 +329,20 @@ models:
         required: true
       - type: image
         name: thumb_img_path
-        label: Featured Image
+        label: Image (blog feed)
         description: The image shown in the blog feed.
+      - type: string
+        name: thumb_img_alt
+        label: Image alt text (blog feed)
+        description: The alt text of the blog feed image.
       - type: image
         name: content_img_path
-        label: Alternative Featured Image
+        label: Image (single post)
         description: The image shown in the single post.
+      - type: string
+        name: content_img_alt
+        label: Image alt text (single post)
+        description: The alt text of the single post image.
       - type: string
         name: excerpt
         label: Excerpt
@@ -370,6 +390,10 @@ models:
         name: image
         label: Image
         description: The image of the section.
+      - type: string
+        name: image_alt
+        label: Image alt text
+        description: The alt text of the section image.
       - type: markdown
         name: content
         label: Content
@@ -456,6 +480,11 @@ models:
         name: new_window
         label: Open in new tab/window
         default: false
+      - type: boolean
+        name: no_follow
+        label: No follow
+        default: false
+        description: 'Add rel="nofollow" attribute to the link'
   form_field:
     type: object
     label: Form Field

@@ -14,7 +14,7 @@
         <div class="post-inside">
           {% if post.params.thumb_img_path %}
           <a class="post-thumbnail" href="{{ post.url | relative_url }}">
-            <img src="{{ post.params.thumb_img_path | relative_url }}" alt="{{ post.params.title }}" />
+            <img src="{{ post.params.thumb_img_path | relative_url }}" alt="{{ post.params.thumb_img_alt }}" />
           </a>
           {% endif %}
           <header class="post-header">

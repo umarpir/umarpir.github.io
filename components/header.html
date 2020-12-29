@@ -6,7 +6,7 @@
         {% if site.params.header.profile_img %}
         <p class="profile">
           <a href='{{ "/" | relative_url }}'><img src="{{ site.params.header.profile_img | relative_url }}"
-              class="avatar" alt="Author Avatar" /></a>
+              class="avatar" alt="{{ site.params.header.profile_img_alt }}" /></a>
         </p><!-- .profile -->
         {% endif %}
         <div class="site-identity">
@@ -32,7 +32,10 @@
                 {% set pageUrl = page.url | trim('/') %}
                 {% set actionUrl = action.url | trim('/') %}
                 <li {{ classNames('menu-item', {'current-menu-item': pageUrl == actionUrl, 'menu-button': action.style == 'button' }) }}>
-                  <a {{ classNames({'button': action.style == 'button'}) }} href="{{ action.url | relative_url }}"{% if action.new_window %} target="_blank" rel="noopener"{% endif %}>{{ action.label }}</a>
+                  <a href="{{ action.url | relative_url }}"
+                    {% if action.new_window %} target="_blank"{% endif %}
+                    {% if action.new_window or action.no_follow %} rel="{% if action.new_window %}noopener {% endif %}{% if action.no_follow %}nofollow{% endif %}"{% endif %}
+                    {{ classNames({'button': action.style == 'button'}) }}>{{ action.label }}</a>
                 </li>
               {% endfor %}
             </ul><!-- .menu -->
@@ -41,7 +44,10 @@
             <div class="social-links">
               {% for action in site.params.header.social_links %}
               {% if action %}
-              <a {{ classNames({'button button-icon': action.style == 'icon'}) }} href="{{ action.url | relative_url }}"{% if action.new_window %} target="_blank" rel="noopener"{% endif %}>
+              <a href="{{ action.url | relative_url }}"
+                {% if action.new_window %} target="_blank"{% endif %}
+                {% if action.new_window or action.no_follow %} rel="{% if action.new_window %}noopener {% endif %}{% if action.no_follow %}nofollow{% endif %}"{% endif %}
+                {{ classNames({'button button-icon': action.style == 'icon'}) }}>
                 {% if action.style == 'icon' and action.icon_class %}
                 <span class="fab {{ action.icon_class }}" aria-hidden="true"></span><span class="screen-reader-text">{{ action.label }}</span>
                 {% else %}

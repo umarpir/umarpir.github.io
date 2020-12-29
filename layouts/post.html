@@ -13,7 +13,7 @@
     </header>
     {% if page.params.content_img_path %}
     <div class="post-image">
-      <img src="{{ page.params.content_img_path | relative_url }}" alt="{{ page.params.title }}" />
+      <img src="{{ page.params.content_img_path | relative_url }}" alt="{{ page.params.content_img_alt }}" />
     </div>
     {% endif %}
     <div class="post-content inner-sm">

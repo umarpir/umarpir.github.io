@@ -19,10 +19,6 @@ $palette: (
 );
 
 @import "imports/functions";
-
-@import "fontawesome.min.css";
-@import "brands.min.css";
-
 @import "imports/reset";
 @import "imports/general";
 @import "imports/icons";
@@ -30,7 +26,6 @@ $palette: (
 @import "imports/structure";
 @import "imports/header";
 @import "imports/posts-pages";
-//@import "imports/post-navigation";
 @import "imports/sections";
 @import "imports/footer";
 @import "imports/palettes";

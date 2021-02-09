@@ -53,10 +53,13 @@
       }
 
       &.button-icon {
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           background: _palette(accent-blue);
           border-color: _palette(accent-blue);
           box-shadow: 0 0 1px 5px rgba(_palette(accent-blue),.2);
+          color: #fff;
         }
       }
     }
@@ -133,10 +136,13 @@
       }
 
       &.button-icon {
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           background: _palette(accent-violet);
           border-color: _palette(accent-violet);
           box-shadow: 0 0 1px 5px rgba(_palette(accent-violet),.2);
+          color: #fff;
         }
       }
     }
@@ -213,10 +219,13 @@
       }
 
       &.button-icon {
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           background: _palette(accent-orange);
           border-color: _palette(accent-orange);
           box-shadow: 0 0 1px 5px rgba(_palette(accent-orange),.2);
+          color: #fff;
         }
       }
     }

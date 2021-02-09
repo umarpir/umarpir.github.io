@@ -190,7 +190,9 @@
       line-height: 2em;
       width: 2em;
   
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         background: _palette(accent);
         border-color: _palette(accent);
         box-shadow: 0 0 1px 5px rgba(_palette(accent),.2);

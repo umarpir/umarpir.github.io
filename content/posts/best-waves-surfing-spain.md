@@ -9,6 +9,32 @@ thumb_img_path: images/4.jpg
 thumb_img_alt: Three person about to surf
 content_img_path: images/4.jpg
 content_img_alt: Three person about to surf
+seo:
+  title: Best Waves - Surfing In Spain
+  description: A intresting tale about Surfing
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Best Waves - Surfing In Spain
+      keyName: property
+    - name: og:description
+      value: A intresting tale about Surfing
+      keyName: property
+    - name: og:image
+      value: images/4.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Best Waves - Surfing In Spain
+    - name: twitter:description
+      value: A intresting tale about Surfing
+    - name: twitter:image
+      value: images/4.jpg
+      relativeUrl: true
 layout: post
 ---
 

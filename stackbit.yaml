@@ -125,14 +125,14 @@ models:
     type: config
     label: Site Configuration
     fields:
+      - type: string
+        name: domain
+        label: Domain
+        description: The domain of your site, including the protocol, e.g. https://mysite.com/
       - type: image
         name: favicon
         label: Favicon
         description: A square icon that represents your website.
-      - type: string
-        name: description
-        label: Site Description
-        description: The default site description used in meta data.
       - type: enum
         name: layout_style
         label: Layout Style
@@ -141,6 +141,7 @@ models:
           - simple
           - overflow
         default: simple
+        required: true
       - type: enum
         name: palette
         label: Color Palette
@@ -151,6 +152,7 @@ models:
           - orange
           - violet
         default: green
+        required: true
       - type: model
         name: header
         label: Header Configuration
@@ -262,6 +264,9 @@ models:
             - section_form
             - section_hero
             - section_posts
+      - type: model
+        name: seo
+        models: [stackbit_page_meta]
   blog:
     type: page
     urlPath: "/blog"
@@ -276,10 +281,9 @@ models:
         label: Title
         description: The title of the page.
         required: true
-      - type: string
-        name: excerpt
-        label: Excerpt
-        description: The excerpt of the page displayed in meta data.
+      - type: model
+        name: seo
+        models: [stackbit_page_meta]
   page:
     type: page
     label: Page
@@ -295,10 +299,6 @@ models:
         name: subtitle
         label: Subtitle
         description: The text shown just below the page title.
-      - type: string
-        name: excerpt
-        label: Excerpt
-        description: The excerpt of the page displayed in meta data.
       - type: image
         name: img_path
         label: Image
@@ -307,6 +307,9 @@ models:
         name: img_alt
         label: Image Alt Text
         description: The alt text of the image.
+      - type: model
+        name: seo
+        models: [stackbit_page_meta]
   post:
     type: page
     urlPath: "/posts/{slug}"
@@ -346,11 +349,10 @@ models:
       - type: string
         name: excerpt
         label: Excerpt
-        description: The excerpt of the post displayed in the blog feed and meta data.
-      - type: string
-        name: canonical_url
-        label: Canonical URL
-        description: The canonical url of the post, if post originates elsewhere.
+        description: The excerpt of the post displayed in the blog feed.
+      - type: model
+        name: seo
+        models: [stackbit_page_meta]
   section:
     type: object
     label: Section
@@ -472,10 +474,21 @@ models:
           - icon
         default: link
         required: true
-      - type: string
+      - type: enum
         name: icon_class
         label: Icon
-        description: Font Awesome icon class name, used only when style is "icon".
+        options:
+          - dev
+          - facebook
+          - github
+          - instagram
+          - linkedin
+          - pinterest
+          - reddit
+          - twitter
+          - vimeo
+          - youtube
+        default: dev
       - type: boolean
         name: new_window
         label: Open in new tab/window
@@ -522,6 +535,55 @@ models:
         name: is_required
         label: Is the field required?
         default: false
+  stackbit_page_meta:
+    type: object
+    label: Page meta data
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: 'The page title that goes into the <title> tag'
+        default: ""
+      - type: string
+        name: description
+        label: Description
+        description: 'The page description that goes into the <meta name="description"> tag'
+        default: ""
+      - type: list
+        name: robots
+        label: Robots
+        description: 'The items that go into the <meta name="robots"> tag'
+        items:
+          type: enum
+          options:
+            - all
+            - index
+            - follow
+            - noindex
+            - nofollow
+            - noimageindex
+            - notranslate
+            - none
+          default: all
+      - type: list
+        name: extra
+        label: Extra
+        description: 'Additional definition for specific meta tags such as open-graph, twitter, etc.'
+        items:
+          type: object
+          labelField: name
+          fields:
+            - type: string
+              name: name
+              default: ""
+            - type: string
+              name: value
+              default: ""
+            - type: string
+              name: keyName
+              default: name
+            - type: boolean
+              name: relativeUrl
 stackbit_banner:
   show_banner: true
   name: Fresh

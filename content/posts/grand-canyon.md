@@ -12,7 +12,7 @@ seo:
   description: The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: Hiking The Grand Canyon

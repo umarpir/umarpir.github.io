@@ -14,7 +14,7 @@ seo:
   description: A cautionary tale about riding
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: The Ride In The Woods

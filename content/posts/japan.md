@@ -12,7 +12,7 @@ seo:
   description: The Shrines of Ise have been celebrated as the prototype of Japanese architecture
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: A Weekend in Japan

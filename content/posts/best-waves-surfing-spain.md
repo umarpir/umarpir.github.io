@@ -14,7 +14,7 @@ seo:
   description: A intresting tale about Surfing
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: Best Waves - Surfing In Spain

@@ -12,7 +12,7 @@ seo:
   description: Interior design is “the art or process of designing the interior
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: How To Choose An Interior Designer

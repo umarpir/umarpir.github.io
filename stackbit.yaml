@@ -526,4 +526,4 @@ stackbit_banner:
   show_banner: true
   name: Fresh
   create_url: 'https://app.stackbit.com/create?theme=fresh'
-  github_url: 'https://github.com/stackbithq/stackbit-theme-fresh'
+  github_url: 'https://github.com/stackbit-themes/fresh-unibit'

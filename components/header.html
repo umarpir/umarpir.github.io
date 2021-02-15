@@ -49,7 +49,9 @@
                 {% if action.new_window or action.no_follow %} rel="{% if action.new_window %}noopener {% endif %}{% if action.no_follow %}nofollow{% endif %}"{% endif %}
                 {{ classNames({'button button-icon': action.style == 'icon'}) }}>
                 {% if action.style == 'icon' and action.icon_class %}
-                <span class="fab {{ action.icon_class }}" aria-hidden="true"></span><span class="screen-reader-text">{{ action.label }}</span>
+                  {% set include_dict = {'icon': action.icon_class} %}
+                  {% include "icon.html" %}
+                  <span class="screen-reader-text">{{ action.label }}</span>
                 {% else %}
                 {{ action.label }}
                 {% endif %}

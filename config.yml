@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: "https://umarpir.github.io"
 title: "Umar's Coding Blog"
 init_js: "js/init.js"
 page_load_js: "js/page-load.js"

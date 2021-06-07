@@ -1,5 +1,5 @@
 baseurl: "/"
-title: "Stackbit Fresh Theme"
+title: "Umar's Coding Blog"
 init_js: "js/init.js"
 page_load_js: "js/page-load.js"
 page_unload_js: "js/page-unload.js"

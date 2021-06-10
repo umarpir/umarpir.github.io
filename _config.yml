@@ -1,15 +1,15 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Umar Pirmahomed
+description: Aspiring Softare Engineer and Data Scientist
+site_title: '@Umarpir - Umar Pirmahomed'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
+github_username: umarpir
 blog_url: https://umarpir.github.io
-email: abhishek@nagekar.com
+email: Umarpir99@gmail.com.com
 keybase_username: abhn
 twitter_username: abhn_
 reddit_username: abhn

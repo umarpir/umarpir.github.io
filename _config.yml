@@ -8,7 +8,7 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: abhn
-blog_url: https://www.nagekar.com
+blog_url: https://umarpir.github.io
 email: abhishek@nagekar.com
 keybase_username: abhn
 twitter_username: abhn_
@@ -18,4 +18,4 @@ reddit_username: abhn
 profile_picture: assets/images/pp.jpg
 
 # Google Analytics ID
-google_analytics: 
+google_analytics:

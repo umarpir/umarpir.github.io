@@ -1,7 +1,7 @@
 # Site settings
 title: A.P
 baseurl: "/ap"
-url: "https://kssim.github.io"
+url: "https://umarpir.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
@@ -23,7 +23,7 @@ social:
   google_plus:
   instagram:
   keybase:
-  linkedin: https://www.linkedin.com/in/kssim/ 
+  linkedin: https://www.linkedin.com/in/kssim/
   pinterest:
   reddit:
   soundcloud:

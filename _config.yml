@@ -1,7 +1,7 @@
 # Site
 title:              Umar Pirmahomed
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+bio:                'Software Engineer/Data Scientist'
+description:        "Little blog about myself and a few projects im working on!"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://umarpir.github.io" # the base hostname & protocol for your site
@@ -17,9 +17,9 @@ instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+location:           United Kingdom
+phone:              07432007286
+email:              Umarpir99@gmail.com # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
 background_image:   /images/bg.jpg

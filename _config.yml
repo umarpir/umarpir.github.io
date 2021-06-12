@@ -11,10 +11,10 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+twitter:
+facebook:           
+instagram:          umarpir_
+github:             umarpir
 
 # personal
 location:           United Kingdom

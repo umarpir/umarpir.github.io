@@ -14,10 +14,16 @@ sitemap:
 My name is Umar and I am currently studying Computer Science with Artificial Intelligence at Brunel University. Along with that I've been working on a few projects which I'll be posting in my blog along with just general things. Although I’m due to graduate next year, I consider myself a ‘forever student,’ as not only am I eager to both constantly build on my academic foundations and stay in tune with the latest software, but I am also always looking for new things to learn and get into both professionally and as a general fun!
 
 
-### Content is Imortant
+### What I'm good at
 <div class="box">
   <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
+  •	Good understanding of Java which I have developed whilst at university and working. I have also been using Spring Boot for backend development whilst developing a full stack application which can be seen in my SoundWrite project in my Blog.
+•	Developed and designed various websites to complete university and work projects using HTML, CSS and JavaScript. I have also gained knowledge in React whilst developing a full stack applications.
+•	Confident of setting up, managing and querying databases using MySQL
+•	Good understanding of object-oriented programming, encapsulation, polymorphism. Also have an understanding of the SCRUM and Agile methodologies which I gained through both working and University studies.
+•	Ability to think logically to create code for the purpose of implementing software solutions as evidenced in my Programming module at university
+•	Able to resolve issues calmly and efficiently as demonstrated regularly in my various roles, when dealing with issues users were having with their systems.
+
   </p>
 </div>
 

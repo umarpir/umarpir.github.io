@@ -13,7 +13,6 @@ sitemap:
 
 My name is Umar and I am currently studying Computer Science with Artificial Intelligence at Brunel University. Along with that I've been working on a few projects which I'll be posting in my blog along with just general things. Although I’m due to graduate next year, I consider myself a ‘forever student,’ as not only am I eager to both constantly build on my academic foundations and stay in tune with the latest software, but I am also always looking for new things to learn and get into both professionally and as a general fun!
 
-Receiving the benefits of content is a certain something. Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. This is a client focused approach as it concentrates on their issues and your answer for them. Making yourself fundamental is critical.
 
 ### Content is Imortant
 <div class="box">

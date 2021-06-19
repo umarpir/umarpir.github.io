@@ -24,8 +24,9 @@ sitemap:
     lastmod: 2017-11-02
     changefreq: weekly
 ```
+<hr>
 <blockquote> woah <blockquote/>
-
+<hr/>
 
 ### Formspring integration
 The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!

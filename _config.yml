@@ -1,7 +1,7 @@
 # Site
 title:              Umar Pirmahomed
 bio:                'Software Engineer/Data Scientist'
-description:        "Little blog about myself and a few projects im working on!"
+description:        "Little blog about myself and a few projects I'm working on!"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://umarpir.github.io" # the base hostname & protocol for your site
@@ -12,7 +12,7 @@ disqus_shortname:   default
 # Social
 analytics-id:       "default"
 twitter:
-facebook:           
+facebook:
 instagram:          umarpir_
 github:             umarpir
 

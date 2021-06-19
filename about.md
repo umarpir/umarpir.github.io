@@ -28,6 +28,6 @@ My name is Umar and I am currently studying Computer Science with Artificial Int
   </p>
 </div>
 
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/socials.jpg" | absolute_url }}" alt="" /></span>
 
 You can check me out on my social media below or fill in the form if you wish to get in contact with me!

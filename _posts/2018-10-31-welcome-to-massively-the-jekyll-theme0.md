@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning Python...after Java"
 date:   2021-04-11
-excerpt: "Java vs python: is python really that easy?"
+excerpt: "Java vs python: Is python really that easy compared to java?"
 image: "/images/javavspython.png"
 ---
 

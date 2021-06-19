@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "SoundWrite Full-stack web application"
-date:   2020-12-30
-excerpt: "SoundWrite is an audiobook player that generates texts and allows annotation"
-image: "/images/soundwrite.png"
+title:  "Learning Python...after Java"
+date:   2021-04-11
+excerpt: "Java vs python: is python really that easy?"
+image: "/images/javavspython.png"
 ---
 
 ## How to Use This Theme

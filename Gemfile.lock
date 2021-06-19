@@ -23,7 +23,7 @@ GEM
     faraday-excon (1.1.0)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
-    ffi (1.15.1-x64-mingw32)
+    ffi (1.15.3-x64-mingw32)
     forwardable-extended (2.6.0)
     html-pipeline (2.14.0)
       activesupport (>= 2)
@@ -85,6 +85,7 @@ GEM
       faraday (> 0.8, < 2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    webrick (1.7.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -97,6 +98,7 @@ DEPENDENCIES
   jekyll-mentions
   jekyll-paginate
   jekyll-sitemap
+  webrick
 
 BUNDLED WITH
    2.2.19

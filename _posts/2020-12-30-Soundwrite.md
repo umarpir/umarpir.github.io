@@ -31,7 +31,6 @@ Key features :
 ## The end product
 
 <div class="box">
-  <video width = "800" controls>
-  <source src=/images/soundwritevideo.mp4" type ="video/mp4"
-  </video>
+  <iframe width = "800" "height 600" src=/images/soundwritevideo.mp4" type ="video/mp4" frameborder ="0" allowfullscreen>
+  </iframe>
 </div>

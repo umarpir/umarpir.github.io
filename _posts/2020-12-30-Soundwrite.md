@@ -21,7 +21,7 @@ Key features :
 ### Back-end
 For the back-end we used Java Spring boot couple with Azure cloud services. We also used Spring security for the log in flow using JWT authentication tokens. Each time a user logged in, a new token was generated adn stored in the users cache. Once this token was stored, it was sent to the back-end using a post request via axios like so..
 ```
-axios:
+axios
     .post(token)
 ```
 This returned the users data. How difficult was this? .... very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challanging.

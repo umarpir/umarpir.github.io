@@ -30,7 +30,9 @@ Key features :
 
 ## The end product
 
-<div class="box">
-  <video width="800"controls>  <source src=/images/soundwritevideo.mp4" type ="video/mp4">
-  </video>
-</div>
+
+<video width="320" height="240" controls>
+  <source src="{{ "/images/soundwritevideo.mp4" | absolute_url }}" alt="" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>

@@ -17,26 +17,14 @@ Key features :
 
 </ul>
 
-## The technical stuff!
+## The technical stuff
 ### Back-end
-For the back-end we utilised Java Spring boot couple with Azure cloud services and MySQL. We also use Spring security for the log in flow using JWT authentication tokens. Each time a user logs in, a new token is generated and stored in the users cache. Once this token is stored, it is sent to the back-end using a post request via axios like so..
-```
-axios
-    .post(token)
-```
-This returned the users data. How difficult was this? .... very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challenging.
+<p><span class="image left"><img src="{{ "/images/spring.png" | absolute_url }}" alt="" /></span>For the back-end we utilise Java Spring boot couple with Azure cloud services. We also use Spring security for the log in flow using JWT authentication tokens. Each time a user logs in, a new token is generated and stored in the users cache. Once this token is stored, it is sent to the back-end using a post request via axios. This returned the users data. How difficult was this? .... very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challenging.
+</p>
 
 
 
 ### Front-end
 The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
 
-## <blockquote> woah <blockquote/>
-
-<p><span class="image left"><img src="{{ "/images/spring.png" | absolute_url }}" alt="" /></span>For the back-end we utilise Java Spring boot couple with Azure cloud services. We also use Spring security for the log in flow using JWT authentication tokens. Each time a user logs in, a new token is generated and stored in the users cache. Once this token is stored, it is sent to the back-end using a post request via axios like so..
-```
-axios
-    .post(token)
-```
-This returned the users data. How difficult was this? .... very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challenging.
-</p>
+## 

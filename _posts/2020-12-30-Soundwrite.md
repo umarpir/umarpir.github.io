@@ -25,6 +25,7 @@ Key features :
 
 
 ### Front-end
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+<p><span class="image right"><img src="{{ "/images/react.png" | absolute_url }}" alt="" /></span>For the front-end we used React. As we found out, using react and Spring Boot togeter isn't the most popular combination which made things extremely difficult as there wasn't much content out there to aid us. However, React as a front end framework proved extremely versatile and through the use of axios we were able to perform POST and GET requests to connect with the back-end all while having a sleek user friendly interface.
+</p>
 
-## 
+##

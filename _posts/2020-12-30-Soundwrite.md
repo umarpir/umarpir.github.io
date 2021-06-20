@@ -19,12 +19,12 @@ Key features :
 
 ## The technical stuff!
 ### Back-end
-For the back-end we used Java Spring boot couple with Azure cloud services. We also used Spring security for the log in flow using JWT authentication tokens. Each time a user logged in, a new token was generated adn stored in the users cache. Once this token was stored, it was sent to the back-end using a post request via axios like so..
+For the back-end we utilised Java Spring boot couple with Azure cloud services and MySQL. We also use Spring security for the log in flow using JWT authentication tokens. Each time a user logs in, a new token is generated and stored in the users cache. Once this token is stored, it is sent to the back-end using a post request via axios like so..
 ```
 axios
     .post(token)
 ```
-This returned the users data. How difficult was this? .... very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challanging.
+This returned the users data. How difficult was this? .... very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challenging.
 
 
 
@@ -33,4 +33,10 @@ The contact form below each page on the footer actually collects information! Ju
 
 ## <blockquote> woah <blockquote/>
 
-<p><span class="image left"><img src="{{ "/images/pic02.jpg" | absolute_url }}" alt="" /></span>In both layman and nerd-speak, this is a paragraph. This is a paragraph that goes on the right side of an image. This is the text that goes under the heading and the subtitle. Paragraphs vary in length but in school we're taught to make them at least 7 sentences or else we risk getting a C. Since the paragraph didn't have a thesis or a closing argument, it's probably a C grade paragraph.</p>
+<p><span class="image left"><img src="{{ "/images/spring.png" | absolute_url }}" alt="" /></span>For the back-end we utilise Java Spring boot couple with Azure cloud services. We also use Spring security for the log in flow using JWT authentication tokens. Each time a user logs in, a new token is generated and stored in the users cache. Once this token is stored, it is sent to the back-end using a post request via axios like so..
+```
+axios
+    .post(token)
+```
+This returned the users data. How difficult was this? .... very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challenging.
+</p>

@@ -7,3 +7,4 @@ gem 'jekyll-mentions'
 gem 'jekyll-feed'
 gem 'jekyll-paginate'
 gem 'webrick'
+gem "kramdown-parser-gfm"

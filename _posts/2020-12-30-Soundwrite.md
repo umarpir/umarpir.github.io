@@ -31,7 +31,7 @@ Key features :
 ## The end product
 
 <div class="box">
-  <video width = "500" controls>
+  <video width = "800" controls>
   <source src=/images/soundwritevideo.mp4" type ="video/mp4"
   </video>
 </div>

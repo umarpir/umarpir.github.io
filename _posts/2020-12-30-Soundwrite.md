@@ -6,14 +6,16 @@ excerpt: "SoundWrite is an audiobook player that generates texts and allows anno
 image: "/images/soundwrite.png"
 ---
 
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+## What is Soundwrite?
+SoundWrite is a web application which was made to assist the user to take notes on audiobooks.This project is being developed to address the issue of quality education which is part of the United Nations Sustainablity Development Goals
+<br/>
+Key features :
+<ul>
+  <li>Take notes with as you are going thought an an audiobook.</li>
+  <li>Able to skip to the part of an audio when you click on the note taken.</li>
+  <li>Organise notes according to the audiobook you read!</li>
 
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
-
-Open a terminal window or a command line and ```cd``` to that location.
-
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
+</ul>
 
 ## Features
 ### Auto-Generating Sitemap

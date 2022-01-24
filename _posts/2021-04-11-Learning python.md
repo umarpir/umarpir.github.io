@@ -12,7 +12,7 @@ image: "/images/javavspython.png"
   <h4>The main differences</h4>
   </header>
   <p>Well the main differnece is to do with how they are typed (static vs dynamic.) </p>
-  <p>Java is a statically typed and compiled language, whereas Python is a dynamically typed and interpreted language. This  seems to be where all the differnce lies which makes the langues so different. Because Java is staticically typed and compiled, it is a lot faster than Python. So Python is better right?</p>
+  <p>Java is a statically typed and compiled language, whereas Python is a dynamically typed and interpreted language. This  seems to be where all the differnce lies which makes the langues so different. Because Java is staticically typed and compiled, it is a lot faster than Python. So Java is better right?</p>
   <p> Well its not that simple..unlike Python. Because Python's syntax is so simple, when you're developing software code, it's clean and doesn't seem complex unlike other languages like Java and C++. This feature also makes the maintenance of the code way easier and just generally better to use for most people and companies. Easier maintenance means cheaper in the long-run and when good time complexity isnt really an aim,
   Python is the go to langauge. Python in a lot of peoples eyes takes the win and because of the versatility of the language, advancements in Ai are usually coded with Python. And learning it after being a fairly decent Java developer is a walk in the park.</p>
 

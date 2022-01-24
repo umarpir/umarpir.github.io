@@ -26,7 +26,7 @@ image: "/images/javavspython.png"
 
   And now... in Python
 
-  <p><span class="image right"><img src="{{ "/images/PythonString.png" | absolute_url }}" alt="" /></span>Thats it. And now you get the why. The EXACT same output. After spending a lot of time using Python, not only just learning simple sytax like ArrayLists and reversing Strings, but using it in my Machine learning projects, it seems to be like this for a lot of things which makes me think, why is Java just so difficult.
+  <p><span class="image right"><img src="{{ "/images/PythonString.png" | absolute_url }}" alt="" /></span>Thats it. And now you get why simplicity can wins. The EXACT same output. After spending a lot of time using Python, not only just learning simple sytax like ArrayLists and reversing Strings, but using it in my Machine learning projects, it seems to be like this for a lot of things which makes me think, why is Java just so difficult.
   </p>
 
 
@@ -34,4 +34,4 @@ image: "/images/javavspython.png"
 
   <h4>How much easier is it?</h4>
   <p> To sum things up, Python is a lot easier. After spending some time switching from Python to Java for different Projects, this kind of thing seems to be a reoccurring theme where it's just so much more long-winded to do simple things in Java. Yet for some reason, I find Java so much more structured and clean. Although Python is hands-down a lot easier, better for things like machine learning and just way easier to learn especially after having done Java,
-   I'm kind of comfy with it and plan to keep it as my go-to language for the time being.
+   I'm kind of comfy with Java and plan to keep it as my go-to language for the time being.

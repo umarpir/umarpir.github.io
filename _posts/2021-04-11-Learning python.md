@@ -30,8 +30,7 @@ image: "/images/javavspython.png"
 
   <p><span class="image right"><img src="{{ "/images/PythonString.png" | absolute_url }}" alt="" /></span>Thats it. And now you get the why. The EXACT same output. After spending a lot of time using Python, not only just learning simple sytax like ArrayLists and reversing Strings, but using it in my Machine learning projects, it seems to be like this for a lot of things which makes me think, why is Java just so difficult.
   </p>
-  <br>
-  <br>
+
 
 
 

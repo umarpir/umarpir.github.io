@@ -6,4 +6,4 @@ excerpt: "A house price predictor using machine learning in Python"
 image: "/images/hpp.png"
 ---
 
-### House price predictor
+### House price predictor 

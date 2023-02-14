@@ -20,7 +20,7 @@ image: "/images/javavspython.png"
   <h2>A Big Example</h2>
   <h4>This pretty much sums up the everything</h4>
   </header>
-  <p><span class="image left"><img src="{{ "/images/JavaString.png" | absolute_url }}" alt="" /></span>The goal here is to print "hello world" backwards. Pretty easy right? So for all my Java people, you can see what's going on here. A simple class, with a method returning a string. we have a new String builder, and in the method, we have for loop. The for loop will be the length of the String used, and it basically iterates backwards producing the String backwards. In the main method below we create a String variable and set it to "hello world" and using system.out.println we put that variable inside the method and the output will be hello world backwards. That's how you do it in Java!
+  <p><span class="image left"><img src="{{ "/images/JavaString.png" | absolute_url }}" alt="" /></span>The goal here is to print "hello world" backwards. Pretty easy right? So for all my Java people, you can see what's going on here. A simple class, with a method returning a string. we have a new String builder, and in the method, we have a for loop. The for loop will be the length of the String used, and it basically iterates backwards producing the String backwards. In the main method below we create a String variable and set it to "hello world" and using system.out.println we put that variable inside the method and the output will be hello world backwards. That's how you do it in Java!
   </p>
 
 

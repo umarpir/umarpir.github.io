@@ -1,12 +1,4 @@
----
-layout: post
-title:  "Machine learning: Neural Networks in Rstudio"
-date:   2021-10-06
-excerpt: "Learning to create Neural Networks in R"
-image: "/images/RstudioNN.png"
----
-
-<header>
+I"€<header>
 <h2>Creating neural networks in Rstudio</h2>
 <h4>Neural networks?</h4>
 </header>
@@ -24,6 +16,8 @@ There are also many types of neural networks that can be used depending on the t
 </ul>
 
 <p>Neural networks have been used for a variety of tasks, including image recognition, natural language processing, and speech recognition.</p>
-<p><span class="image left"><img src="{{ "/images/nn.png" | absolute_url }}" alt="" /></span>In a neural network, each layer consists of interconnected nodes or "neurons" that perform computations on the input data.
+<p><span class="image left"><img src="http://0.0.0.0:4000/images/nn.png" alt="" /></span>In a neural network, each layer consists of interconnected nodes or "neurons" that perform computations on the input data.
 The number of layers in a neural network can vary depending on the complexity of the problem being solved, but there are typically three main types of layers: the input layer, hidden layers, and output layer.
 </p>
+</p>
+:ET

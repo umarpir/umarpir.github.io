@@ -7,3 +7,4 @@ image: "/images/hpp.png"
 ---
 
 ### House price predictor 
+# This post will be about a House price predictor I made utilising the Boston house price dataset.

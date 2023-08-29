@@ -1,7 +1,8 @@
 version: '3'
 services:
   jekyll-serve:
-    image: jekyll/jekyll:4.0
+    image: jekyll/jekyll:4.2.2
+    platform: linux/amd64
     volumes:
       - '.:/srv/jekyll'
     ports:

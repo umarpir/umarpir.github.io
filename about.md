@@ -11,20 +11,32 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/aboutme.png" | absolute_url }}" alt="" /></span>
 
-My name is Umar and I am currently studying Computer Science with Artificial Intelligence at Brunel University. Along with that I've been working on a few projects which I'll be posting in my blog along with just general things. Although I’m due to graduate next year, I consider myself a ‘forever student,’ as not only am I eager to both constantly build on my academic foundations and stay in tune with the latest software, but I am also always looking for new things to learn and get into both professionally and as general fun!
+My name is Umar and I am a Software engineer fairly early on In my career. I work full time and consider myself as of recently as a Full-Stack Engineer. Along with that I've been working on a few projects which I'll be posting in my blog along with just general things. Although I've graduated, I consider myself a ‘forever student,’ as not only am I eager to both constantly build on my academic foundations and stay in tune with the latest software, but I am also always looking for new things to learn and get into both professionally and as general fun!
 
 <br>
 
 ### What I'm good at
 <div class="box">
   <p>
-  •	Good understanding of Java which I have developed whilst at university and working. I have also been using Spring Boot for backend development whilst developing a full stack application which can be seen in my SoundWrite project in my Blog.
-•	Developed and designed various websites to complete university and work projects using HTML, CSS and JavaScript. I have also gained knowledge in React whilst developing a full stack applications.
-•	Confident of setting up, managing and querying databases using MySQL
-•	Good understanding of object-oriented programming, encapsulation, polymorphism. Also have an understanding of the SCRUM and Agile methodologies which I gained through both working and University studies.
-•	Ability to think logically to create code for the purpose of implementing software solutions as evidenced in my Programming module at university
-•	Able to resolve issues calmly and efficiently as demonstrated regularly in my various roles, when dealing with issues users were having with their systems.
+  1. Building Backend Magic:
 
+I love crafting robust and scalable backend solutions using Java Spring Boot. Whether it's microservices architecture or RESTful APIs, I'm fluent in the language and framework, ready to conjure up efficient and reliable services.
+
+2. Bridging the Database Divide:
+
+Data is my playground, and I'm equally at home navigating the relational world of PostgreSQL and the document-oriented realm of MongoDB. Whether it's data modeling, efficient queries, or performance optimization, I'm your go-to bridge between data and code.
+
+3. GraphQL Whisperer:
+
+I believe in the power of GraphQL to deliver exactly what a client needs, and I'm skilled in weaving its magic into Express.js projects. From API schema design to efficient data fetching, I'm here to unlock the full potential of this elegantly flexible approach.
+
+4. Code Alchemist:
+
+With a passion for building efficient and well-structured code, I'm adept in Java, JavaScript (Express.js), and various libraries like GraphQL. My potions of choice? Clean architecture, modularity, and code that reads like poetry.
+
+5. Learning Apprentice:
+
+I'm always eager to expand my tech vocabulary, constantly learning and exploring new frameworks and tools. While I'm early in my journey, my thirst for knowledge and ability to apply it quickly makes me a fast learner and adaptable team player.
   </p>
 </div>
 

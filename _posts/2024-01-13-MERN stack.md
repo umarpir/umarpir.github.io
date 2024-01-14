@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Full-Stack Journey: The MERN Stack"
+date:   2024-01-13
+excerpt: "Full-stack Journey: Learning Fullstack with JS"
+image: "/images/Mern.png"
+---
+
+
+  <header>
+  <h2>MERN</h2>
+  <h3>And using JS ....?</h3>
+  </header>
+  <p>Coming from a "purist" backend background, where all you talk about is OOP vs FP and constantly shitting on JS, for obvious reasons I never really had Javascript in my scope of learning. Yes I always knew I needed to know a bit of front-end for some Full stack projects but i never really thought much of it... Until i got put into a front-end team on my graduate scheme. </p>
+  <p>I started learning some React and quickly realised that its not too bad(shout out Tony.) You start to realise that using these heavy languages isn't really needed for small e-commererce websites. Using Java for a small project is just beyond overkill so i looked for an alternative. I thought about learning Go, but would have go through the effort of learning a new language. Meanwhile i was learning about node.js express graphQL, mongo and found that this stack (MERN) was by far the most simple way of developing a quick and easy project. I could write all my code in JS so no context switching and development time is relatively quick. </p>
+  <h3>What is MERN</h3>
+  <h5>In a nutshell...</h5>
+   <ul>
+    <li>MongoDB</li>
+    <li>Express</li>
+    <li>React</li>
+    <li>Node</li>
+   </ul>
+
+  <header class="featured">
+  <h2>My first project</h2>
+  </header>
+  	<span class="image fit"><img src="{{ "/images/simplex-mern.png" | absolute_url }}" alt="" /></span>
+
+## The technical stuff
+### Back-end
+<p><span class="image left"><img src="{{ "/images/express-mern.png" | absolute_url }}" alt="" /></span> After going through what felt like 100 hours of tutorials and working on a few bits at work I though let me get stuck right in. And suprisingly, it wasn't too bad. I started with setting up my mongoDB and made a few simple crud functions and started from there. i used jwt for the authentication and mongoose to connect things up. It was suprisingly similar to using Spring JPA. I set up some user routes and some admin routes which allowed modifaction with special privileges.
+</p>
+<p><span class="image right"><img src="{{ "/images/content-mern.png" | absolute_url }}" alt="" /></span>For content, I had to think about things differently as i had never created site for anyone so i had to think about content managment. i decided to go for contentful as they had a decent free-tier and had some good existing node libraries. Also i had heard it mentioned a few times at work so i thought it's a good option. and so far i've had no problems. Once i had that sorted i made some content routes for delivery which would allow the client to upload products and descriptions and it would map it to the page. It was fairly simple to be honest, where you just make the call using the contentful node package, then destructure the response and forward it through to the front-end.
+</p>
+
+
+
+### Front-end
+<p><span class="image right"><img src="{{ "/images/react-mern.png" | absolute_url }}" alt="" /></span>For the front-end we used React. As we found out, using React and Spring Boot together isn't the most popular combination with online resources which made things extremely difficult as there wasn't much content out there to aid us. However, React as a front end framework proved extremely versatile and we were able to have a sleek user-friendly UI.
+</p>
+
+  <h4>How much easier is it?</h4>
+  <p> To sum things up, Python is a lot easier. After spending some time switching from Python to Java for different Projects, this kind of thing seems to be a reoccurring theme where it's just so much more long-winded to do simple things in Java. Yet for some reason, I find Java so much more structured and clean. Although Python is hands-down a lot easier, better for things like machine learning and just way easier to learn especially after having done Java,
+   I'm kind of comfy with Java and plan to keep it as my go-to language for the time being.

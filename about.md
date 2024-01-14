@@ -18,28 +18,26 @@ My name is Umar and I am a Software engineer fairly early on In my career. I wor
 ### What I'm good at
 <div class="box">
   <p>
-  1. Building Backend Magic:
-
-I love crafting robust and scalable backend solutions using Java Spring Boot. Whether it's microservices architecture or RESTful APIs, I'm fluent in the language and framework, ready to conjure up efficient and reliable services.
-
-2. Bridging the Database Divide:
-
+  <ol>
+  <li>  
+Backend:
+I love crafting backend solutions using different languages. Right now it's a mix of Node and Java, which I'm very comfortable with, but I have GO in my scope of learning so stay tuned for a few updates there.
+</li>
+  <li>  
+Frontend:
+Frontend is a new passion I have. Creating React apps for the past year has given me the skills to consider myself a Full-stack engineer and creating quick, responsive UIs is something I now look forward to.
+</li>
+  <li>  
+Bridging the Database Divide:
 Data is my playground, and I'm equally at home navigating the relational world of PostgreSQL and the document-oriented realm of MongoDB. Whether it's data modeling, efficient queries, or performance optimization, I'm your go-to bridge between data and code.
-
-3. GraphQL Whisperer:
-
-I believe in the power of GraphQL to deliver exactly what a client needs, and I'm skilled in weaving its magic into Express.js projects. From API schema design to efficient data fetching, I'm here to unlock the full potential of this elegantly flexible approach.
-
-4. Code Alchemist:
-
-With a passion for building efficient and well-structured code, I'm adept in Java, JavaScript (Express.js), and various libraries like GraphQL. My potions of choice? Clean architecture, modularity, and code that reads like poetry.
-
-5. Learning Apprentice:
-
+</li>
+<li>  
+Learning Apprentice:
 I'm always eager to expand my tech vocabulary, constantly learning and exploring new frameworks and tools. While I'm early in my journey, my thirst for knowledge and ability to apply it quickly makes me a fast learner and adaptable team player.
+</li>
+  </ol>
   </p>
 </div>
-
 <span class="image left"><img src="{{ "/images/socials.jpg" | absolute_url }}" alt="" /></span>
 
 You can check me out on my social media below or fill in the form if you wish to get in contact with me!

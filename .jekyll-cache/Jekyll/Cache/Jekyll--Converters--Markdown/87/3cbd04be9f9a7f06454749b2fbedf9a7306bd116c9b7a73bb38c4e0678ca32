@@ -1,0 +1,33 @@
+I"Ë<header>
+  <h2>MERN</h2>
+  <h3>And using JS ....?</h3>
+  </header>
+<p>Coming from a "purist" backend background, where all you talk about is OOP vs FP and constantly shitting on JS, for obvious reasons I never really had Javascript in my scope of learning. Yes I always knew front was a needed skill for some Full stack projects but never really thought much of it... Until I got put into a front-end team on my graduate scheme. </p>
+<p>I started learning some React and quickly realised that its not too bad (shout-out Tony.) You start to realise that using these heavy languages isn't really needed for small e-commererce websites. Using Java for a small project is just beyond overkill so I looked for an alternative. I thought about learning Go, but would have go through the effort of learning a new language and all the frameworks that come with it. Meanwhile my current learning list consisted of MongoDB, Express, React, Node.js, GraphQL and found that this stack (MERN) was by far the most simple way of developing a quick and easy project. My codebase could be written all in JS so no context switching and development time is relatively quick.</p>
+<h3>What is MERN</h3>
+<h5>In a nutshell - a stack that consists of:</h5>
+<ul>
+    <li>MongoDB</li>
+    <li>Express</li>
+    <li>React</li>
+    <li>Node</li>
+   </ul>
+
+<header class="featured">
+  <h2>My first project</h2>
+  </header>
+  	<span class="image fit"><img src="http://localhost:4000/images/simplex-mern.png" alt="" /></span>
+
+<h2 id="the-technical-stuff">The technical stuff</h2>
+<h3 id="back-end">Back-end</h3>
+<p><span class="image left"><img src="http://localhost:4000/images/express-mern.png" alt="" /></span> After going through what felt like 100 hours of tutorials and working on a few bits at work it was time to get stuck right in. And suprisingly, it wasn't too bad. I started with setting up MongoDB and made a few simple crud functions and started from there. I used JWT for the authentication and mongoose to connect things up. It was suprisingly similar to using Spring JPA. I set up some user routes and some admin routes which allowed modificaction with special privileges.
+</p>
+<p><span class="image right"><img src="http://localhost:4000/images/content-mern.png" alt="" /></span>For content, I had to think about things differently. This was my first time creating an e-commerce site for anyone so content management was a an import thing to think about. Contentful had a decent free-tier and had some good existing node libraries. Also it was mentioned a few times at work so I thought it's a good option. and so far I've had no problems. Once I had that sorted I made some content routes for delivery which would allow the client to upload products and descriptions and it would map it to the page. It was fairly simple to be honest, where you just make the call using the contentful node package, then destructure the response and forward it through to the front-end.
+</p>
+
+<h3 id="front-end">Front-end</h3>
+<p><span class="image right"><img src="http://localhost:4000/images/react-mern.png" alt="" /></span>For the front-end I used React. It was the usual React stuff using react-router-dom for creating SPAs and also used auth-kit for user routes. The main challenge here was to make the pages more dynamic as I would usually just create a load of components and a load of pages. Another struggle was creating a more dynamic interface and make things more fluid for mobile browsing. I decided to use MaterialUI for a lot of the components and tweak them to look less generic.
+</p>
+<h4>How was it all?</h4>
+<p> To sum things up, it was super quick to develop and easy to deploy on AWS and Netlify. Although it took a lot of online research, and still don't know if I have done things the right way, I got it done way faster than I would using any other stack. Not everything has to be super complex and thinking about the clients requirments for a small-medium sized business with uncomplex needs would usually result in Mern being the go to stack.</p>
+:ET

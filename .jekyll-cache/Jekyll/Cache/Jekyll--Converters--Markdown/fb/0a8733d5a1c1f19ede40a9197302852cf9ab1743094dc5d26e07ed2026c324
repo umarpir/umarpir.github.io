@@ -1,21 +1,12 @@
----
-layout: page
-title: About me
-description: Get to know me a bit more.
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
----
-## About me
+I"W	<h2 id="about-me">About me</h2>
 
-<span class="image left"><img src="{{ "/images/aboutme.png" | absolute_url }}" alt="" /></span>
+<p><span class="image left"><img src="http://localhost:4000/images/aboutme.png" alt="" /></span></p>
 
-My name is Umar and I am a Software engineer fairly early on In my career. I work full time and consider myself as of recently as a Full-Stack Engineer. Along with that I've been working on a few projects which I'll be posting in my blog along with just general things. Although I've graduated, I consider myself a ‘forever student,’ as not only am I eager to both constantly build on my academic foundations and stay in tune with the latest software, but I am also always looking for new things to learn and get into both professionally and as general fun!
+<p>My name is Umar and I am a Software engineer fairly early on In my career. I work full time and consider myself as of recently as a Full-Stack Engineer. Along with that I’ve been working on a few projects which I’ll be posting in my blog along with just general things. Although I’ve graduated, I consider myself a ‘forever student,’ as not only am I eager to both constantly build on my academic foundations and stay in tune with the latest software, but I am also always looking for new things to learn and get into both professionally and as general fun!</p>
 
-<br>
+<p><br /></p>
 
-### What I'm good at
+<h3 id="what-im-good-at">What I’m good at</h3>
 <div class="box">
   <p>
   1. Building Backend Magic:
@@ -40,6 +31,7 @@ I'm always eager to expand my tech vocabulary, constantly learning and exploring
   </p>
 </div>
 
-<span class="image left"><img src="{{ "/images/socials.jpg" | absolute_url }}" alt="" /></span>
+<p><span class="image left"><img src="http://localhost:4000/images/socials.jpg" alt="" /></span></p>
 
-You can check me out on my social media below or fill in the form if you wish to get in contact with me!
+<p>You can check me out on my social media below or fill in the form if you wish to get in contact with me!</p>
+:ET

@@ -19,13 +19,13 @@ Key features :
 
 ## The technical stuff
 ### Back-end
-<p><span class="image left"><img src="{{ "/images/spring.png" | absolute_url }}" alt="" /></span>For the back-end we utilise Java Spring boot couple with Azure cloud services. We also use Spring security for the log in flow using JWT authentication tokens. Each time a user logs in, a new token is generated and stored in the users cache. Once this token is stored, it is sent to the back-end using a post request via axios. This returned the users data. How difficult was this? .... Very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challenging.
+<p><span class="image left"><img src="{{ "/images/spring.png" | absolute_url }}" alt="" /></span>For the back-end we utilise Java Spring boot couple with Azure cloud services. We also use Spring security for the log in flow using JWT authentication. Each time a user logs in, a new token is generated and stored in the users cache. Once this token is stored, it is sent to the back-end using a post request via axios. This returned the users data. How difficult was this? .... Very, considering it was my first big project (like most of my team) and having to create a complicated full stack application from scratch was extremely challenging.
 </p>
 
 
 
 ### Front-end
-<p><span class="image right"><img src="{{ "/images/react.png" | absolute_url }}" alt="" /></span>For the front-end we used React. As we found out, using React and Spring Boot together isn't the most popular combination which made things extremely difficult as there wasn't much content out there to aid us. However, React as a front end framework proved extremely versatile and through the use of axios we were able to perform POST and GET requests to connect with the back-end all while having a sleek user friendly interface.
+<p><span class="image right"><img src="{{ "/images/react.png" | absolute_url }}" alt="" /></span>For the front-end we used React. As we found out, using React and Spring Boot together isn't the most popular combination with online resources which made things extremely difficult as there wasn't much content out there to aid us. However, React as a front end framework proved extremely versatile and we were able to have a sleek user-friendly UI.
 </p>
 
 ## The end product

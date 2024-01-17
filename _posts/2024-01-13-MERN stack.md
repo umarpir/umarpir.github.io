@@ -9,7 +9,7 @@ image: "/images/Mern.png"
   <h2>MERN</h2>
   <h3>And using JS ....?</h3>
   </header>
-  <p>Coming from a "purist" backend background, where all you talk about is OOP vs FP and constantly shitting on JS, for obvious reasons I never really had Javascript in my scope of learning. Yes, I always knew front-end was a needed skill for some Full-stack projects but never really thought much of it... Until I got put into a front-end team on my graduate scheme. </p>
+  <p>Coming from a "purist" backend background, where all you talk about is OOP vs FP and constantly ******* on JS, for obvious reasons I never really had Javascript in my scope of learning. Yes, I always knew front-end was a needed skill for some Full-stack projects but never really thought much of it... Until I got put into a front-end team on my graduate scheme. </p>
   <p>I started learning some React and quickly realized that it's not too bad (shout-out Tony.) You start to realize that using these heavy languages isn't needed for small e-commerce websites. Using Java for a small project is just beyond overkill so I looked for an alternative. I thought about learning Go, but would have to go through the effort of learning a new language and all the frameworks that come with it. Meanwhile, my current learning list consisted of MongoDB, Express, React, Node.js, and GraphQL, and found that this stack (MERN) was by far the most simple way of developing a quick and easy project. My codebase could be written all in JS so no context switching and development time is relatively quick.</p>
   <h3>What is MERN</h3>
   <h5>In a nutshell - a stack that consists of:</h5>
